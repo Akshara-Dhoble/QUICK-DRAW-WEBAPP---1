@@ -1,0 +1,29 @@
+body{
+    background-color:lightgoldenrodyellow;
+}
+h1{
+    font-family: 'Special Elite', cursive;
+    background-color: white;
+    color: crimson;
+}
+#show_sketch{
+    float:right;
+}
+#score{
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    margin-left: 5px;
+    color: crimson;
+}
+#timer{
+    float: right;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    color: crimson;
+}
+p{
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    color:crimson;
+}
+
