@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <meta charset="UTF-8">
   <title>Sketch Classification</title>
@@ -18,7 +17,7 @@
   
   
     
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="C118_predefined_code.css">
 </head>
 
 <body>
@@ -42,7 +41,7 @@
 <h1>Quick Draw
 <button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show Sketch</button>
   </h1>
-  <p id="your_sketch">
+  <p id="sketch_name">
     Your Sketch :
   </p>
   <p id="confidence">
@@ -55,14 +54,10 @@
 <span id="score">
 Score :
 </span>
-<span id="timer">
+<span id="time" onclick="check_sketch()">
 Timer : 
 </span>
-<script src="main.js"></script>
 
-
-
-<script src="main.js"></script>
 </body>
-
+<script src="main.js"></script>
 </html>
